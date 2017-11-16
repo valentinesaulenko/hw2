@@ -1,8 +1,16 @@
 body {
+	color: #fff;
 	font-size: Arial, sans-serif;
 	padding: 0;
 	margin: 0;
 }
+
+.clearfix:after {
+	content:'';
+	display: table;
+	width: 100%;
+	clear: both;
+} 
 
 div {
 	box-sizing: border-box;
@@ -10,11 +18,11 @@ div {
 
 header {
 	background: url(../img/bg1.jpg) no-repeat center top / cover;
-	height: 600px;
+	padding-bottom: 180px;
 }
 
 .container {
-	width: 930px;
+	width: 1140px;
 	margin: 0 auto;
 }
 
@@ -35,15 +43,53 @@ nav {
 }
 
 .menu li {
+	color: #fff;
 	float: left;
 	display: block;
-	margin-right: 41px;
+	margin-right: 38px;
+	margin-top: 30px;
 }
 
 .menu a {
 	color: #fff;
 	text-decoration: none;
 	text-transform: uppercase;
-	font-size: 14px;
-
+	font-size: 10px;
 }
+
+h1 {
+	font-size: 38px;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 130px;
+	font-weight: bold;
+}
+
+.titles_first {
+	font-size: 23px;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: lighter;
+	margin-bottom: 40px;
+}
+
+.ghost-button-rounded-corners {
+	display: block;
+	width: 140px;
+	padding: 8px;
+	color: #48bf72;
+	border: 1px solid #48bf72;
+	border-radius: 5px;
+	text-align: center;
+	outline: none;
+	text-decoration: none;
+	margin: 0 auto;
+}
+
+.ghost-button-rounded-corners:hover,
+.ghost-button-rounded-corners:active {
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+
