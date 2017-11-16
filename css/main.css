@@ -1,6 +1,6 @@
 body {
 	color: #fff;
-	font-size: Arial, sans-serif;
+	font-family: Arial, sans-serif;
 	padding: 0;
 	margin: 0;
 }
@@ -73,7 +73,7 @@ h1 {
 	margin-bottom: 40px;
 }
 
-.ghost-button-rounded-corners {
+.button_header {
 	display: block;
 	width: 140px;
 	padding: 8px;
@@ -84,10 +84,11 @@ h1 {
 	outline: none;
 	text-decoration: none;
 	margin: 0 auto;
+	text-transform: uppercase;
 }
 
-.ghost-button-rounded-corners:hover,
-.ghost-button-rounded-corners:active {
+.button_header:hover,
+.button_header:active {
   border: 1px solid #fff;
   color: #fff;
 }
